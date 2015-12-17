@@ -13,14 +13,13 @@ int main() {
   printf("Entrez la taille du triangle : ");
   scanf("%d", &taille);
 
-  while (i <= taille && taille != 0 ){
+  for (i = 0; i <= taille && taille != 0; i++){
     tableau[i][i] = 1;
     tableau[i][0] = 1;
 
     for (j = 1; j < i; j++){
       tableau[i][j] = tableau[i-1][j] + tableau[i-1][j-1];
     }
-    i++;
   }
 
   for (i = 0; i <= taille; i++){ 
