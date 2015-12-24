@@ -13,7 +13,7 @@ int main() {
 	printf("\nx : ");
 	scanf("%d", &x);
 
-    printf("\nb : ");
+    	printf("\nb : ");
 	scanf("%d", &b);
 	
 	f = a * x + b;
