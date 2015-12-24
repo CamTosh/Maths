@@ -10,11 +10,11 @@ int main() {
 	printf("a : ");
 	scanf("%d", &a);
 
-    printf("\nb : ");
-	scanf("%d", &b);
-
 	printf("\nx : ");
 	scanf("%d", &x);
+
+    printf("\nb : ");
+	scanf("%d", &b);
 	
 	f = a * x + b;
 	printf("%d\n", f);
