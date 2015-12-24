@@ -1,28 +1,27 @@
 #include <stdio.h>
 #include <stdlib.h>
+#define max 42
 
 int main()
 {
 
-	int colA;
-	int ligneA;
+	int colA[max];
+	int ligneA[max];
 
-	int colB;
-	int ligneB;
+	int colB[max];
+	int ligneB[max];
 
 	int i;
 	int j;
 
-	printf("Nombre de colonnes pour la matrice A\n");
+	printf("\n Nombre de colonnes pour la matrice A : ");
 	scanf("%d", &colA);
-	printf("Nombre de lignes pour la matrice A\n");
+	printf("\n Nombre de lignes pour la matrice A : ");
 	scanf("%d", &ligneA);
 
-	printf("\n\n\n");
-
-	printf("Nombre de colonnes pour la matrice B\n");
+	printf("\n Nombre de colonnes pour la matrice B : ");
 	scanf("%d", &colB);
-	printf("Nombre de lignes pour la matrice B\n");
+	printf("\n Nombre de lignes pour la matrice B : ");
 	scanf("%d", &ligneB);
 
 
@@ -30,25 +29,27 @@ int main()
 
 
 	for (i = 0; i < colA; i++){
-		printf("\n Rentrez une valeur pour la colonne %d de A : ", colA);
+		printf("\n Rentrez une valeur pour la colonne %d de A : ", colA[i]);
 		scanf("%d", &colA[i]);
 	}
-	for (j = 0; j < &ligneA; j++){
-		printf("\n Rentrez une valeur pour la ligne %d de A : ", ligneA);
-		scanf("%d", &ligneA[i][j]);
+	printf("\n\n\n");
+	for (i = 0; i < &ligneA; i++){
+		printf("\n Rentrez une valeur pour la ligne %d de A : ", ligneA[i]);
+		scanf("%d", &ligneA[i]);
 	}
 
-
+	
 	/*----------  Matrice B  ----------*/
 
 
 	for (i = 0; i < colB; i++){
-		printf("\n Rentrez une valeur pour la colonne %d de B : ", colB);
-		scanf("%d", &colB[i])
+		printf("\n Rentrez une valeur pour la colonne %d de B : ", colB[i]);
+		scanf("%d", &colB[i]);
 	}
-	for (j = 0; j < ligneB; j++){
-		printf("\n Rentrez une valeur pour la ligne %d de B : ", ligneB);
-		scanf("%d", &ligneB[i][j]);
+	printf("\n\n\n");
+	for (i = 0; i < ligneB; i++){
+		printf("\n Rentrez une valeur pour la ligne %d de B : ", ligneB[i]);
+		scanf("%d", &ligneB[i]);
 	}
 
 
