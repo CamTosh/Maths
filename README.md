@@ -9,6 +9,8 @@ Repo des différents programmes que je vais devoir écrire/utiliser ou ceux qui 
   - Permet d'afficher le triangle de Pascal 
 - Sierpiński.c {encore en dev}
   - Permettra d'afficher le triangle de Sierpiński
+  - Sierpiński-Linux.c
+    - Une version sans les couleurs pour fonctionner sous Linux   
 - Fonction-affine.c
   - Permet de calculer une fonction affine, enfin je crois
 - Matrice.c
