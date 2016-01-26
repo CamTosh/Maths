@@ -43,6 +43,7 @@ namespace triangle_de_pascal
                 }
                 Console.Write("\n");
               }
+              Console.ReadLine();
         }
     }
 }
